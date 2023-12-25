@@ -42,10 +42,10 @@ RM = D:\CppDistro\cmake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\2ndCourse\cPlus\myGame
+CMAKE_SOURCE_DIR = D:\2ndCourse\cPlus\redeemerGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\2ndCourse\cPlus\myGame
+CMAKE_BINARY_DIR = D:\2ndCourse\cPlus\redeemerGame
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -56,19 +56,44 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
+CMakeFiles/main.dir/main/fight.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main/fight.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/main/fight.cpp.obj: main/fight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\2ndCourse\cPlus\redeemerGame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main/fight.cpp.obj"
+	D:\CppDistro\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\main\fight.cpp.obj -c D:\2ndCourse\cPlus\redeemerGame\main\fight.cpp
+
+CMakeFiles/main.dir/main/fight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main/fight.cpp.i"
+	D:\CppDistro\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\2ndCourse\cPlus\redeemerGame\main\fight.cpp > CMakeFiles\main.dir\main\fight.cpp.i
+
+CMakeFiles/main.dir/main/fight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main/fight.cpp.s"
+	D:\CppDistro\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2ndCourse\cPlus\redeemerGame\main\fight.cpp -o CMakeFiles\main.dir\main\fight.cpp.s
+
+CMakeFiles/main.dir/main/fight.cpp.obj.requires:
+
+.PHONY : CMakeFiles/main.dir/main/fight.cpp.obj.requires
+
+CMakeFiles/main.dir/main/fight.cpp.obj.provides: CMakeFiles/main.dir/main/fight.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main/fight.cpp.obj.provides.build
+.PHONY : CMakeFiles/main.dir/main/fight.cpp.obj.provides
+
+CMakeFiles/main.dir/main/fight.cpp.obj.provides.build: CMakeFiles/main.dir/main/fight.cpp.obj
+
+
 CMakeFiles/main.dir/main/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/main/main.cpp.obj: main/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\2ndCourse\cPlus\myGame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main/main.cpp.obj"
-	D:\CppDistro\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\main\main.cpp.obj -c D:\2ndCourse\cPlus\myGame\main\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\2ndCourse\cPlus\redeemerGame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/main/main.cpp.obj"
+	D:\CppDistro\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\main\main.cpp.obj -c D:\2ndCourse\cPlus\redeemerGame\main\main.cpp
 
 CMakeFiles/main.dir/main/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main/main.cpp.i"
-	D:\CppDistro\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\2ndCourse\cPlus\myGame\main\main.cpp > CMakeFiles\main.dir\main\main.cpp.i
+	D:\CppDistro\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\2ndCourse\cPlus\redeemerGame\main\main.cpp > CMakeFiles\main.dir\main\main.cpp.i
 
 CMakeFiles/main.dir/main/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main/main.cpp.s"
-	D:\CppDistro\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2ndCourse\cPlus\myGame\main\main.cpp -o CMakeFiles\main.dir\main\main.cpp.s
+	D:\CppDistro\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2ndCourse\cPlus\redeemerGame\main\main.cpp -o CMakeFiles\main.dir\main\main.cpp.s
 
 CMakeFiles/main.dir/main/main.cpp.obj.requires:
 
@@ -84,16 +109,16 @@ CMakeFiles/main.dir/main/main.cpp.obj.provides.build: CMakeFiles/main.dir/main/m
 CMakeFiles/main.dir/main/map.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main/map.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/main/map.cpp.obj: main/map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\2ndCourse\cPlus\myGame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/main/map.cpp.obj"
-	D:\CppDistro\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\main\map.cpp.obj -c D:\2ndCourse\cPlus\myGame\main\map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\2ndCourse\cPlus\redeemerGame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/main/map.cpp.obj"
+	D:\CppDistro\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\main\map.cpp.obj -c D:\2ndCourse\cPlus\redeemerGame\main\map.cpp
 
 CMakeFiles/main.dir/main/map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main/map.cpp.i"
-	D:\CppDistro\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\2ndCourse\cPlus\myGame\main\map.cpp > CMakeFiles\main.dir\main\map.cpp.i
+	D:\CppDistro\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\2ndCourse\cPlus\redeemerGame\main\map.cpp > CMakeFiles\main.dir\main\map.cpp.i
 
 CMakeFiles/main.dir/main/map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main/map.cpp.s"
-	D:\CppDistro\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2ndCourse\cPlus\myGame\main\map.cpp -o CMakeFiles\main.dir\main\map.cpp.s
+	D:\CppDistro\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\2ndCourse\cPlus\redeemerGame\main\map.cpp -o CMakeFiles\main.dir\main\map.cpp.s
 
 CMakeFiles/main.dir/main/map.cpp.obj.requires:
 
@@ -108,12 +133,14 @@ CMakeFiles/main.dir/main/map.cpp.obj.provides.build: CMakeFiles/main.dir/main/ma
 
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/main/fight.cpp.obj" \
 "CMakeFiles/main.dir/main/main.cpp.obj" \
 "CMakeFiles/main.dir/main/map.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+main.exe: CMakeFiles/main.dir/main/fight.cpp.obj
 main.exe: CMakeFiles/main.dir/main/main.cpp.obj
 main.exe: CMakeFiles/main.dir/main/map.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
@@ -127,7 +154,7 @@ main.exe: D:/CppDistro/MinGW/lib/libfreetype.a
 main.exe: CMakeFiles/main.dir/linklibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\2ndCourse\cPlus\myGame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\2ndCourse\cPlus\redeemerGame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +162,7 @@ CMakeFiles/main.dir/build: main.exe
 
 .PHONY : CMakeFiles/main.dir/build
 
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/main/fight.cpp.obj.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/main/main.cpp.obj.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/main/map.cpp.obj.requires
 
@@ -145,6 +173,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\2ndCourse\cPlus\myGame D:\2ndCourse\cPlus\myGame D:\2ndCourse\cPlus\myGame D:\2ndCourse\cPlus\myGame D:\2ndCourse\cPlus\myGame\CMakeFiles\main.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\2ndCourse\cPlus\redeemerGame D:\2ndCourse\cPlus\redeemerGame D:\2ndCourse\cPlus\redeemerGame D:\2ndCourse\cPlus\redeemerGame D:\2ndCourse\cPlus\redeemerGame\CMakeFiles\main.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

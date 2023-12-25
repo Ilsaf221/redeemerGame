@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/main/fight.cpp.obj"
   "CMakeFiles/main.dir/main/main.cpp.obj"
   "CMakeFiles/main.dir/main/map.cpp.obj"
   "main.pdb"

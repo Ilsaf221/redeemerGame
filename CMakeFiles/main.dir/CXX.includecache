@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
-D:/2ndCourse/cPlus/myGame/main/main.cpp
+D:/2ndCourse/cPlus/redeemerGame/main/fight.cpp
+SFML/Graphics.hpp
+-
+iostream
+-
+cmath
+-
+windows.h
+-
+fight.h
+D:/2ndCourse/cPlus/redeemerGame/main/fight.h
+
+D:/2ndCourse/cPlus/redeemerGame/main/fight.h
+SFML/Graphics.hpp
+-
+
+D:/2ndCourse/cPlus/redeemerGame/main/main.cpp
 SFML/Graphics.hpp
 -
 SFML/Window.hpp
@@ -16,15 +32,17 @@ iostream
 cmath
 -
 map.h
-D:/2ndCourse/cPlus/myGame/main/map.h
+D:/2ndCourse/cPlus/redeemerGame/main/map.h
+fight.h
+D:/2ndCourse/cPlus/redeemerGame/main/fight.h
 
-D:/2ndCourse/cPlus/myGame/main/map.cpp
+D:/2ndCourse/cPlus/redeemerGame/main/map.cpp
 SFML/Graphics.hpp
 -
 map.h
-D:/2ndCourse/cPlus/myGame/main/map.h
+D:/2ndCourse/cPlus/redeemerGame/main/map.h
 
-D:/2ndCourse/cPlus/myGame/main/map.h
+D:/2ndCourse/cPlus/redeemerGame/main/map.h
 SFML/Graphics.hpp
 -
 

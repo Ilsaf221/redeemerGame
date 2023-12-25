@@ -47,10 +47,10 @@ RM = D:\CppDistro\cmake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\2ndCourse\cPlus\myGame
+CMAKE_SOURCE_DIR = D:\2ndCourse\cPlus\redeemerGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\2ndCourse\cPlus\myGame
+CMAKE_BINARY_DIR = D:\2ndCourse\cPlus\redeemerGame
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\2ndCourse\cPlus\myGame\CMakeFiles D:\2ndCourse\cPlus\myGame\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\2ndCourse\cPlus\redeemerGame\CMakeFiles D:\2ndCourse\cPlus\redeemerGame\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\2ndCourse\cPlus\myGame\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\2ndCourse\cPlus\redeemerGame\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,33 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+main/fight.obj: main/fight.cpp.obj
+
+.PHONY : main/fight.obj
+
+# target to build an object file
+main/fight.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main/fight.cpp.obj
+.PHONY : main/fight.cpp.obj
+
+main/fight.i: main/fight.cpp.i
+
+.PHONY : main/fight.i
+
+# target to preprocess a source file
+main/fight.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main/fight.cpp.i
+.PHONY : main/fight.cpp.i
+
+main/fight.s: main/fight.cpp.s
+
+.PHONY : main/fight.s
+
+# target to generate assembly for a file
+main/fight.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main/fight.cpp.s
+.PHONY : main/fight.cpp.s
 
 main/main.obj: main/main.cpp.obj
 
@@ -185,6 +212,9 @@ help:
 	@echo ... main
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... main/fight.obj
+	@echo ... main/fight.i
+	@echo ... main/fight.s
 	@echo ... main/main.obj
 	@echo ... main/main.i
 	@echo ... main/main.s

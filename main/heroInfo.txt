@@ -10,3 +10,6 @@
             }
 
 прямоугольник жизней = 168, 137, 93
+
+unitsCross:      if ((((heroPosition.y + 0.15 * 167.5 >= enemyPosition.y - 0.16 * 255) && (heroPosition.y - 0.15 * 167.5 <= enemyPosition.y + 0.16 * 255)) && ((heroPosition.x + 0.15 * 295 >= enemyPosition.x - 0.16 * 255) && (heroPosition.x - 0.15 * 295 <= enemyPosition.x + 0.16 * 255))) && (enemy.alive == true))
+

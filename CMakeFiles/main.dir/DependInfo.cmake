@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/2ndCourse/cPlus/myGame/main/main.cpp" "D:/2ndCourse/cPlus/myGame/CMakeFiles/main.dir/main/main.cpp.obj"
-  "D:/2ndCourse/cPlus/myGame/main/map.cpp" "D:/2ndCourse/cPlus/myGame/CMakeFiles/main.dir/main/map.cpp.obj"
+  "D:/2ndCourse/cPlus/redeemerGame/main/fight.cpp" "D:/2ndCourse/cPlus/redeemerGame/CMakeFiles/main.dir/main/fight.cpp.obj"
+  "D:/2ndCourse/cPlus/redeemerGame/main/main.cpp" "D:/2ndCourse/cPlus/redeemerGame/CMakeFiles/main.dir/main/main.cpp.obj"
+  "D:/2ndCourse/cPlus/redeemerGame/main/map.cpp" "D:/2ndCourse/cPlus/redeemerGame/CMakeFiles/main.dir/main/map.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

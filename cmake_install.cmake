@@ -1,8 +1,8 @@
-# Install script for directory: D:/2ndCourse/cPlus/myGame
+# Install script for directory: D:/2ndCourse/cPlus/redeemerGame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/sfml-lab-3")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/sfml-game")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/2ndCourse/cPlus/myGame/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/2ndCourse/cPlus/redeemerGame/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
